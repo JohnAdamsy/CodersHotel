@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">MyHotel!</string>
+    <string name="label">""</string>
+    <string name="app_name">Hotel_App</string>
+    <string name="gender_prompt">Select One</string>
+    <string name="more">Details>></string>
+    <string name="title_search_hotel_activity">Search Hotel</string>
+
+    <string-array name="gender_values">
+        <item>Female</item>
+        <item>Male</item>
+    </string-array>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_hotel_details">HotelDetailsActivity</string>
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label" />
+    
+    <ListView android:id="@android:id/list"
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:background="#007D9A"
+               android:layout_weight="1"
+               android:drawSelectorOnTop="false"/>
+    
+     <Button android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout Me"
+        android:textSize="20dip"
+        android:textColor="#21dbd4"
+        android:textStyle="bold" 
+        android:id="@+id/btnLogout"
+        android:layout_marginTop="80dip"
+        android:background="@null"/>
+     
+      <Button android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to Dashboard"
+        android:textSize="20dip"
+        android:textColor="#21dbd4"
+        android:textStyle="bold" 
+        android:id="@+id/btnBack"
+        android:layout_marginTop="80dip"
+        android:background="@null"/>
+
+</LinearLayout>
